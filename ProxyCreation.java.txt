@@ -6,7 +6,7 @@ import java.net.URL;
 import java.util.Base64;
 
 public class ApigeeProxyCreation {
-
+     //Second Test
     // Replace these values with your Apigee Edge credentials
     private static final String APIGEE_USERNAME = "your_username";
     private static final String APIGEE_PASSWORD = "your_password";
@@ -24,7 +24,7 @@ public class ApigeeProxyCreation {
 
             // Specify the Apigee Edge API endpoint for proxy creation
             String apiEndpoint = APIGEE_API_ENDPOINT + APIGEE_ORG + "/apis";
-
+            //test of GIT
             // Construct the API proxy creation request payload
             String proxyCreationRequest = "{\n" +
                     "  \"name\": \"SampleProxy\",\n" +
