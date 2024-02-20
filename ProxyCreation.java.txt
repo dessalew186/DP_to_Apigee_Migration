@@ -25,7 +25,7 @@ public class ApigeeProxyCreation {
             // Specify the Apigee Edge API endpoint for proxy creation
             String apiEndpoint = APIGEE_API_ENDPOINT + APIGEE_ORG + "/apis";
 
-            // Construct the API proxy creation request payload
+            // Construct the API proxy creation request payload CICD test
             String proxyCreationRequest = "{\n" +
                     "  \"name\": \"SampleProxy\",\n" +
                     "  \"revision\": \"1\",\n" +
